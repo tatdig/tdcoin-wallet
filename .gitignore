@@ -11,3 +11,4 @@ local.properties
 *.iml
 bin/
 gen/
+bkp/backup-protobuf-testnet

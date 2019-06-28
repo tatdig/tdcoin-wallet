@@ -6,16 +6,16 @@ Technical details
 Your wallet contains your private keys and various transaction related metadata. It is stored in app-private
 storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/wallet-protobuf
-    Testnet: /data/data/de.schildbach.wallet_test/files/wallet-protobuf-testnet
+    Mainnet: /data/data/de.schildbach.tdcwallet/files/wallet-protobuf
+    Testnet: /data/data/de.schildbach.tdcwallet_test/files/wallet-protobuf-testnet
 
 The wallet file format is not compatible to wallet.dat (Satoshi client). Rather, it uses a custom protobuf format
 which should be compatible between clients using tdcoinj.
 
 Certain actions cause automatic rolling backups of your wallet to app-private storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/key-backup-protobuf
-    Testnet: /data/data/de.schildbach.wallet_test/files/key-backup-protobuf-testnet
+    Mainnet: /data/data/de.schildbach.tdcwallet/files/key-backup-protobuf
+    Testnet: /data/data/de.schildbach.tdcwallet_test/files/key-backup-protobuf-testnet
 
 Your wallet can be manually backed up to and restored from a share of the storage access framework (likely Google Drive):
 
@@ -28,15 +28,15 @@ itself to restore from the backup, see the separate [README.recover.md](README.r
 The current fee rate for each of the fee categories (economic, normal, priority) is cached in
 app-private storage:
 
-    Mainnet: /data/data/de.schildbach.wallet/files/fees.txt
-    Testnet: /data/data/de.schildbach.wallet_test/files/fees-testnet.txt
+    Mainnet: /data/data/de.schildbach.tdcwallet/files/fees.txt
+    Testnet: /data/data/de.schildbach.tdcwallet_test/files/fees-testnet.txt
 
 
 ### DEBUGGING
 
 Wallet file for Testnet can be pulled from an (even un-rooted) device using:
 
-    adb pull /data/data/de.schildbach.wallet_test/files/wallet-protobuf-testnet
+    adb pull /data/data/de.schildbach.tdcwallet_test/files/wallet-protobuf-testnet
 
 Log messages can be viewed by:
 
@@ -163,16 +163,16 @@ Instructions for preparing an NFC tag with your address:
   could overwrite the tag with his own Tdcoin address.
 
 
-### BITCOINJ
+### TDCOINJ
 
-Tdcoin Wallet uses [tdcoinj](https://tdcoinj.github.io/) for Tdcoin specific logic.
+Tdcoin Wallet uses [tdcoinj](https://tdcoinj.github.io/ ??????) for Tdcoin specific logic.
 
 
 ### EXCHANGE RATES
 
 Tdcoin Wallet reads this feed from "TdcoinAverage" for getting exchange rates:
 
-    https://apiv2.tdcoinaverage.com/indices/global/ticker/short?crypto=TDC
+    https://apiv2.tdcoinaverage.com/indices/global/ticker/short?crypto=TDC ?????
 
 We chose this feed because it is not dependent on a single exchange. This feature can be disabled
 with the compile-time flag
