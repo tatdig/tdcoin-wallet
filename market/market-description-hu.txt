@@ -1,0 +1,29 @@
+<b>Mindig legyenek nálad a Tdcoin-jaid a zsebedben!</b> Úgy tudsz fizetni, hogy gyorsan beolvasol egy QR kódot. Kereskedőként megkapod a fizetséget megbízhatóan és azonnal. A Tdcoin Wallet az első mobil Tdcoin alkalmazás és vitathatatlanul a legbiztonságosabb is!
+
+
+<b>JELLEMZŐK</b>
+
+• Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
+• Tdcoin összeg megjelenítési módok: TDC, mTDC és µTDC.
+• Átváltás a saját valutádra, oda-vissza.
+• Tdcoin küldés és fogadás NFC-n, QR kódokon vagy Tdcoin URL-eken keresztül.
+• Címtár a rendszeresen használt Tdcoin címek számára.
+• Offline állapotban is fizethetsz - Bluetooth segítségével.
+• Rendszerüzenet Tdcoin érkezésekor.
+• Papírtárcák besöprése (pl. amik hűtőháznak vannak használva).
+• Widget a Tdcoin egyenlegről.
+
+
+<b>HOZZÁJÁRULÁS</b>
+
+A Tdcoin Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licenc: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+A forráskódunk elérhető a GitHub-on:
+https://github.com/tdcoin-wallet/tdcoin-wallet
+
+Minden fordítást a Transifex kezelt:
+https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+
+
+<i>Saját felelősségedre használd!</i>

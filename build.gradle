@@ -1,0 +1,25 @@
+ext {
+    var = '131071Az'
+}
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath('fr.avianey.androidsvgdrawable:gradle-plugin:3.0.2') {
+            exclude group: 'xerces'
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+}

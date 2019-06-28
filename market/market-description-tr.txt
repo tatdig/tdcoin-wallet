@@ -1,0 +1,29 @@
+<b>Tdcoin'leriniz daima cebinizde sizinle olsun!</b> Herhangi bir QR kodunu okutarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenle ve anında alabilirsiniz. Tdcoin Wallet ilk mobil ve muhtemelen en güvenli Tdcoin uygulamasıdır!
+
+
+<b>ÖZELLİKLER</b>
+
+• Kayıt olmaya, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
+• Tdcoin miktarını TDC, mTDC ve µTDC olarak göster.
+• Ulusal para birimlerine ve bu para birimlerinden dönüştürme.
+• QR kodları, Tdcoin bağlantıları ve yakın alan iletişimi ile Tdcoin alımı ve gönderilmesi.
+• Sık kullanılan Tdcoin adresleri için adres defteri içerir.
+• Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
+• Alınan tdcoin'ler için sistem bildirimleri.
+• Kağıt cüzdanların taranması (mesela soğuk depolama için kullanılanlar).
+• Tdcoin bakiyesini görüntüleyen widget.
+
+
+<b>KATKIDA BULUNUN</b>
+
+Tdcoin Wallet <b>açık kaynak</b> ve <b>özgür yazılımdır</b>. Lisans: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Kaynak kodumuz GitHub'da mevcuttur:
+https://github.com/tdcoin-wallet/tdcoin-wallet
+
+Tüm tercümeler Transifex üzerinde yönetilir:
+https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+
+
+<i>Tüm riski siz üstlenmiş olursunuz!</i>

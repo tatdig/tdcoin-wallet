@@ -1,0 +1,29 @@
+<b>Tenha os seus Tdcoins sempre com você, no seu bolso!</b> Efetue pagamentos rapidamente apenas escaneando um código QR. Como comerciante, você pode receber pagamentos de forma confiável e instantânea. A Tdcoin Wallet foi o primeiro aplicativo móvel criado para o Tdcoin, sendo um dos mais seguros!
+
+
+<b>CARACTERÍSTICAS</b>
+
+• Não requer cadastro em nenhum serviço! Esta carteira é descentralizada e "ponto a ponto (P2P)".
+• Exibe a quantidade de Tdcoins em TDC, mTDC e µTDC.
+• Conversão para moedas nacionais.
+• Envio e recebimento de Tdcoins via NFC, códigos QR ou endereços Tdcoin.
+• Livro de endereços para guardar os endereços Tdcoin mais utilizados.
+• Quando você estiver off-line, você ainda pode pagar via Bluetooth.
+• O recebimento de tdcoins é informado nas notificações do sistema.
+• Varredura de carteiras de papel (usadas para armazenamento offline).
+• Widget para saldo de Tdcoins.
+
+
+<b>CONTRIBUA</b>
+
+A Tdcoin Wallet é um <b>software livre</ b> e com <b>código aberto</ b>. Licença: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.pt-br.html
+
+Nosso código fonte está disponível no GitHub:
+https://github.com/tdcoin-wallet/tdcoin-wallet
+
+Todas as traduções são gerenciadas através do site Transifex:
+https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+
+
+<i>Use por sua conta e risco!</i>

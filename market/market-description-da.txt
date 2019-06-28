@@ -1,0 +1,29 @@
+<b>Hav altid dine Tdcoins med dig i din lomme!</b> Du betaler ved hurtigt at scanne en QR-kode. Som handlende kan du modtage betalinger pålideligt og øjeblikkeligt. Tdcoin Wallet er den første mobile Tdcoin-app, og muligvis også den mest sikre!
+
+
+<b>FUNKTIONER</b>
+
+• Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
+• Visning af Tdcoin-beløb i TDC, mTDC og µTDC.
+• Konvertering til og fra lokale valutaer.
+• Afsendelse og modtagelse af Tdcoin via NFC, QR-koder eller Tdcoin-URLer.
+• Adressebog til ofte brugte Tdcoin-adresser.
+• Når du er offline, kan du stadig betale via Bluetooth.
+• Systemnotifikation for modtagne mønter.
+• Rydning af papirtegnebøger (fx de der bruges til kold opbevaring).
+• App-widget for Tdcoin-saldo.
+
+
+<b>BIDRAG</b>
+
+Tdcoin Wallet er <b>fri software</b> med <b>åben kildekode</b>. Licens: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Vores kildekode er tilgængelig på GitHub:
+https://github.com/tdcoin-wallet/tdcoin-wallet
+
+Alle oversættelser håndteres via Transifex:
+https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+
+
+<i>Brug for egen risiko!</i>

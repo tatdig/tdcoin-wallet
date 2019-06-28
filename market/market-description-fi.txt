@@ -1,0 +1,29 @@
+<b>Pidä Tdcoinisi aina mukana taskussasi!</b> Voit maksaa nopeasti skannaamalla QR-koodin. Kauppiaana saat maksut turvallisesti ja välittömästi. Tdcoin Wallet on ensimmäinen Tdcoin-mobiilisovellus ja luultavimmin myös kaikista turvallisin!
+
+
+<b>OMINAISUUDET</b>
+
+• Ei vaadi rekisteröintiä, verkkopalveluja tai pilvitallennusta! Tämä lompakko on hajautettu ja suorayhteyksinen.
+• Mahdollisuus näyttää Tdcoin-varat määrissä TDC, mTDC ja µTDC.
+• Yksikkömuunnos valtioiden valuuttojen välillä.
+• Tdcoinien lähettäminen ja vastaanottaminen NFC, QR-koodien tai Tdcoin-URL-osotteiden avulla.
+• Osoitekirja säännöllisesti käytettyjä Tdcoin-osoitteita varten.
+• Kun et ole verkkoyhteyden ulottuvilla, voit silti maksaa Bluetoothin välityksellä.
+• Järjestelmän ilmoitus vastaanotetuille Tdcoineille.
+• Paperisen lompakon pyyhkäisymahdollisuus (esim. näitä käytetään "kylmissä varastoissa").
+• Android-sovellus Tdcoin-varojen hallintaan.
+
+
+<b>OSALLISTU</b>
+
+Tdcoin Wallet on <b>avointa lähdekoodia</b> ja <b>vapaa ohjelmisto</b>. Lisenssi: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Lähdekoodi saatavilla GitHub:sta:
+https://github.com/tdcoin-wallet/tdcoin-wallet
+
+Kaikki käännökset on hallinnoitu Transifex:n kautta:
+https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+
+
+<i>Käytä omalla vastuulla!</i>
