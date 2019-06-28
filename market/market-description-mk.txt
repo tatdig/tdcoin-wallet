@@ -12,7 +12,7 @@
 • Апликациски виџет за Биткоин салдо.
 
 Ако сакаш да придонесеш за Биткоин Паричник, проектот е лоциран на
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 License: GPLv3
 Користи на сопствен ризик!

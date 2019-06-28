@@ -11,7 +11,7 @@ TÍNH NĂNG:
 • Tiện ích dành riêng cho Tdcoin.
 
 Nếu bạn có ý tưởng đóng góp cho Tdcoin Wallet, hãy truy cập vào trang web
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Giấy phép: GPLv3
 Sử dụng với sự cẩn trọng của riêng bạn!

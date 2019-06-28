@@ -12,7 +12,7 @@ FUNKCIE:
 • Widget s celkovým zostatkom.
 
 Ak chcete prispieť do projektu Tdcoin Wallet nájdete ho na adrese
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Licencia: GPLv3
 Použitie len na vlastné riziko!

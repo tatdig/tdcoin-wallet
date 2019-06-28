@@ -11,7 +11,7 @@ FITUR:
 • Widget Apl untuk saldo Tdcoin.
 
 Jika Anda ingin berkontribusi kepada Tdcoin Wallet, proyeknya berada di
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Lisensi: GPLv3
 Gunakan dengan resiko Anda!

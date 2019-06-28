@@ -20,10 +20,10 @@ Tdcoin Wallet <b>açık kaynak</b> ve <b>özgür yazılımdır</b>. Lisans: GPLv
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Kaynak kodumuz GitHub'da mevcuttur:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Tüm tercümeler Transifex üzerinde yönetilir:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Tüm riski siz üstlenmiş olursunuz!</i>

@@ -20,10 +20,10 @@ Tdcoin Wallet is <b>open source</b> en <b>free software</b>. Licentie: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.nl.html
 
 Onze broncode is beschikbaar op GitHub:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Alle vertalingen worden geregeld via Transifex:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Gebruik op eigen risico!</i>

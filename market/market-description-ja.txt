@@ -20,10 +20,10 @@ Tdcoin Walletは<b>オープンソース</b>であり、<b>自由ソフトウェ
 https://www.gnu.org/licenses/gpl-3.0.ja.html
 
 ソースコードはGithubにあります。
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 全ての翻訳はTransifexで管理されています:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>自己責任でお使いください!</i>

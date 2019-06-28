@@ -19,10 +19,10 @@
 https://www.gnu.org/licenses/gpl-3.0.ar.html
 
 الكود المصدري للبرنامج متوافر على GitHub:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 كل الترجمات مدارة عبر Transifex:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 استخدم على مسؤوليتك الشخصية !

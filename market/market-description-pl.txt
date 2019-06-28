@@ -12,7 +12,7 @@ WŁAŚCIWOŚCI:
 • Widget aplikacji dla stanu konta.
 
 Jeśli chcesz przyczynić się do rozwoju Tdcoin Wallet to projekt znajduje się pod adresem
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Licencja: GPLv3
 Używasz na własne ryzyko!

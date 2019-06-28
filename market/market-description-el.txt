@@ -20,10 +20,10 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Ο κώδικάς μας είναι διαθέσιμος στο GitHub.
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Διαχείρηση όλων των μεταφράσεων μέσω του Transifex:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Χρησιμοποιήστε με δική σας ευθύνη!</i>

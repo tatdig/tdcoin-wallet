@@ -19,10 +19,10 @@ tdcoin वॉलेट <b> खुला स्रोत </ b> और <b> मु�
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 हमारे स्रोत कोड GitHub पर उपलब्ध है:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 सभी अनुवाद Transifex के माध्यम से प्रबंधित कर रहे हैं:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 अपने जोखिम पर उपयोग करें!

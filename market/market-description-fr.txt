@@ -20,10 +20,10 @@ Tdcoin Wallet est un <b>logiciel à code source ouvert</b> et <b>libre</b>. Lice
 https://www.gnu.org/licenses/gpl-3.0.fr.html
 
 Notre code source se trouve sur GitHub :
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Toutes les traductions sont gérées sur Transifex :
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Utilisez à vos propres risques !</i>

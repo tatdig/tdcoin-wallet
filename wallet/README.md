@@ -73,7 +73,7 @@ Finally, you can build Tdcoin Wallet and sign it with your development key. Agai
 use:
 
     # first time only
-    git clone -b master https://github.com/tdcoin-wallet/tdcoin-wallet.git tdcoin-wallet
+    git clone -b master https://github.com/tatdig/tdcoin-wallet.git tdcoin-wallet
 
     # each time
     cd tdcoin-wallet
@@ -113,7 +113,7 @@ You should be able to import the project into Android Studio, as it uses Gradle 
 
 ### TRANSLATIONS
 
-The source language is English. Translations for all languages except German [happen on Transifex](https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/).
+The source language is English. Translations for all languages except German [happen on Transifex](https://www.transifex.com/tatdig/tdcoin-wallet/).
 
 The English resources are pushed to Transifex. Changes are pulled and committed to the git
 repository from time to time. It can be done by manually downloading the files, but using the `tx`

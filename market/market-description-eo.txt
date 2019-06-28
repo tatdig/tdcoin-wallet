@@ -12,7 +12,7 @@ TRAJTOJ:
 • Aplikaĵa fenestraĵo por Bitmona saldo.
 
 Se vi volas kontribui al Tdcoin Wallet, la projekto lokas ĉe
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Licenco: GPLv3
 Uzu je via propra risko!

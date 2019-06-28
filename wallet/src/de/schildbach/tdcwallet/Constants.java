@@ -164,7 +164,7 @@ public final class Constants {
 
     public static final BaseEncoding HEX = BaseEncoding.base16().lowerCase();
 
-    public static final String SOURCE_URL = "https://github.com/tdcoin-wallet/tdcoin-wallet";
+    public static final String SOURCE_URL = "https://github.com/tatdig/tdcoin-wallet";
     public static final String BINARY_URL = "https://www.tdcoincore.org/";
 
     public static final int PEER_DISCOVERY_TIMEOUT_MS = 10 * (int) DateUtils.SECOND_IN_MILLIS;

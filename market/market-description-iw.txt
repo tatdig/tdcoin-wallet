@@ -12,7 +12,7 @@ FEATURES:
 • וידג'ט לבדיקת יתרת הביטקוין שלך
 
 אם אתה רוצה לתרום לפרויקט ארנק הביטקוין, הפרויקט ממוקם ב
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 רישיון : GPLv3
 שים לב: השימוש הוא באחריות המשתמש.

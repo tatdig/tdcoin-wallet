@@ -20,10 +20,10 @@ La Cartera de Tdcoin és <b>codi obert</b> i <b>programari lliure</b>. Llicènci
 https://www.gnu.org/licenses/gpl-3.0.ca.html
 
 El nostre codi està disponible a GitHub:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Totes les traduccions estan gestionades a través de Transifex:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Utilitza-la sota la teva responsabilitat!</i>

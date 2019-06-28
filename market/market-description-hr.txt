@@ -19,10 +19,10 @@ Tdcoin Wallet je <b>javno dostupan kod</b> i <b>besplatna aplikacija</b>. Licenc
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Naš izvorni kod je dostušan na GitHub-u:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Sve transakcije se provode preko Transifex-a:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Koristi na svoj vlastiti rizik.</i>

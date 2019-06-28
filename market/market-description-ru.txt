@@ -20,10 +20,10 @@ Tdcoin Wallet это <b>бесплатное приложение</b> с <b>от
 https://www.gnu.org/licenses/gpl-3.0.ru.html
 
 Исходный код приложения доступен на GitHub:
-https://github.com/tdcoin-wallet/tdcoin-wallet
+https://github.com/tatdig/tdcoin-wallet
 
 Все переводы сделаны через Transifex:
-https://www.transifex.com/tdcoin-wallet/tdcoin-wallet/
+https://www.transifex.com/tatdig/tdcoin-wallet/
 
 
 <i>Используйте на свой страх и риск!</i>
