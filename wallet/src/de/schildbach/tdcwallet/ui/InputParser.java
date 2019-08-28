@@ -76,7 +76,7 @@ public abstract class InputParser {
 
         @Override
         public void parse() {
-            if (input.startsWith("BITCOIN:-")) {
+            if (input.startsWith("TDCOIN:-")) {
                 try {
                     final byte[] serializedPaymentRequest = Qr.decodeBinary(input.substring(9));
 
@@ -94,9 +94,9 @@ public abstract class InputParser {
 
                     error(R.string.input_parser_invalid_paymentrequest, x.getMessage());
                 }
-            } else if (input.startsWith("tdcoin:") || input.startsWith("BITCOIN:")) {
+            } else if (input.startsWith("tdcoin:") || input.startsWith("TDCOIN:")) {
                 try {
-                    final TdcoinURI tdcoinUri = new TdcoinURI(null, "tdcoin:" + input.substring(8));
+                    final TdcoinURI tdcoinUri = new TdcoinURI(null, "tdcoin:" + input.substring(7)); //TDCOIN
                     final Address address = tdcoinUri.getAddress();
                     if (address != null && !Constants.NETWORK_PARAMETERS.equals(address.getParameters()))
                         throw new TdcoinURIParseException("mismatched network");

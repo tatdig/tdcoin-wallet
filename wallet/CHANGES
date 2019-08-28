@@ -1,6 +1,7 @@
-v7.11
++v7.11-v7.12
 
 * Various small bugfixes.
+* TDCOIN specific tdcoin URI fixes in InputParser
 
 v7.10
 

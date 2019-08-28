@@ -41,7 +41,7 @@ public final class AboutFragment extends PreferenceFragment {
 
     private static final String KEY_ABOUT_VERSION = "about_version";
     private static final String KEY_ABOUT_MARKET_APP = "about_market_app";
-    private static final String KEY_ABOUT_CREDITS_BITCOINJ = "about_credits_tdcoinj";
+    private static final String KEY_ABOUT_CREDITS_TDCOINJ = "about_credits_tdcoinj";
 
     @Override
     public void onAttach(final Activity activity) {
@@ -70,7 +70,7 @@ public final class AboutFragment extends PreferenceFragment {
             marketPref.setIntent(marketIntent);
             marketPref.setEnabled(true);
         }
-        findPreference(KEY_ABOUT_CREDITS_BITCOINJ)
+        findPreference(KEY_ABOUT_CREDITS_TDCOINJ)
                 .setTitle(getString(R.string.about_credits_tdcoinj_title, VersionMessage.TDCOINJ_VERSION));
     }
 }

@@ -76,9 +76,9 @@ public class ExchangeRatesProvider extends ContentProvider {
     private Map<String, ExchangeRate> exchangeRates = null;
     private long lastUpdated = 0;
 
-    private static final HttpUrl BITCOINAVERAGE_URL = HttpUrl
+    private static final HttpUrl TDCOINAVERAGE_URL = HttpUrl
             .parse("https://apiv2.tdcoinaverage.com/indices/global/ticker/short?crypto=TDC");
-    private static final String BITCOINAVERAGE_SOURCE = "TdcoinAverage.com";
+    private static final String TDCOINAVERAGE_SOURCE = "TdcoinAverage.com";
 
     private static final long UPDATE_FREQ_MS = 10 * DateUtils.MINUTE_IN_MILLIS;
 
@@ -235,7 +235,7 @@ public class ExchangeRatesProvider extends ContentProvider {
         final Stopwatch watch = Stopwatch.createStarted();
 
         final Request.Builder request = new Request.Builder();
-        request.url(BITCOINAVERAGE_URL);
+        request.url(TDCOINAVERAGE_URL);
         request.header("User-Agent", userAgent);
 
         final Builder httpClientBuilder = Constants.HTTP_CLIENT.newBuilder();
@@ -260,25 +260,25 @@ public class ExchangeRatesProvider extends ContentProvider {
                                 final Fiat rate = parseFiatInexact(fiatCurrencyCode, exchangeRate.getString("last"));
                                 if (rate.signum() > 0)
                                     rates.put(fiatCurrencyCode, new ExchangeRate(
-                                            new org.tdcoinj.utils.ExchangeRate(rate), BITCOINAVERAGE_SOURCE));
+                                            new org.tdcoinj.utils.ExchangeRate(rate), TDCOINAVERAGE_SOURCE));
                             } catch (final IllegalArgumentException x) {
                                 log.warn("problem fetching {} exchange rate from {}: {}", currencyCode,
-                                        BITCOINAVERAGE_URL, x.getMessage());
+                                        TDCOINAVERAGE_URL, x.getMessage());
                             }
                         }
                     }
                 }
 
                 watch.stop();
-                log.info("fetched exchange rates from {}, {} chars, took {}", BITCOINAVERAGE_URL, content.length(),
+                log.info("fetched exchange rates from {}, {} chars, took {}", TDCOINAVERAGE_URL, content.length(),
                         watch);
 
                 return rates;
             } else {
-                log.warn("http status {} when fetching exchange rates from {}", response.code(), BITCOINAVERAGE_URL);
+                log.warn("http status {} when fetching exchange rates from {}", response.code(), TDCOINAVERAGE_URL);
             }
         } catch (final Exception x) {
-            log.warn("problem fetching exchange rates from " + BITCOINAVERAGE_URL, x);
+            log.warn("problem fetching exchange rates from " + TDCOINAVERAGE_URL, x);
         }
 
         return null;

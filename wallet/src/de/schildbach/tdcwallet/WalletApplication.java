@@ -358,12 +358,12 @@ public class WalletApplication extends Application {
     }
 
     public int maxConnectedPeers() {
-        return activityManager.isLowRamDevice() ? 4 : 6;
+        return activityManager.getMemoryClass() <= 128 ? 4 : 6;
     }
 
     public int scryptIterationsTarget() {
-        return activityManager.isLowRamDevice() ? Constants.SCRYPT_ITERATIONS_TARGET_LOWRAM
-                : Constants.SCRYPT_ITERATIONS_TARGET;
+        return activityManager.getMemoryClass() <= 128 || Build.SUPPORTED_64_BIT_ABIS.length == 0
+                ? Constants.SCRYPT_ITERATIONS_TARGET_LOWRAM : Constants.SCRYPT_ITERATIONS_TARGET;
     }
 
     public static String versionLine(final PackageInfo packageInfo) {

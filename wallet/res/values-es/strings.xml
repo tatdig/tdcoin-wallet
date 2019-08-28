@@ -297,7 +297,6 @@
   <string name="about_category_credits">Esta aplicación utiliza…</string>
   <string name="about_credits_tdcoinj_title">tdcoinj %s</string>
   <string name="about_credits_zxing_title">ZXing</string>
-  <string name="about_credits_scrypt_title">Scrypt, implementado por Will Glozer y Colin Percival</string>
   <string name="about_market_app_title">Página en %s</string>
   <string name="about_market_app_summary">Critica o evalúa la aplicación</string>
   <string name="about_faq_title">Prefuntas Frecuentes</string>

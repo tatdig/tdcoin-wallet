@@ -119,7 +119,7 @@ public final class CurrencyAmountView extends FrameLayout {
     }
 
     public void setCurrencySymbol(@Nullable final String currencyCode) {
-        final String tdcoinSymbol = Character.toString(Constants.CHAR_BITCOIN);
+        final String tdcoinSymbol = Character.toString(Constants.CHAR_TDCOIN);
         final boolean hasTdcoinSymbol = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
                 && textView.getPaint().hasGlyph(tdcoinSymbol);
         final float textSize = textView.getTextSize();

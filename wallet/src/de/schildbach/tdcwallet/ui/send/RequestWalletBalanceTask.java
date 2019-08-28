@@ -188,6 +188,10 @@ public final class RequestWalletBalanceTask {
                                         .adapter(JsonRpcResponse.class);
                                 final Set<UTXO> utxos = new HashSet<>();
                                 for (final Script outputScript : outputScripts) {
+                                    log.info("This P2SH {} quiered for address {}.",
+                                            new String[] { Constants.HEX.encode(
+                                                    Sha256Hash.of(outputScript.getProgram()).getReversedBytes()) }
+                                            ,addressesStr);
                                     final JsonRpcResponse response = responseAdapter.fromJson(source);
                                     final int expectedResponseId = outputScript.getScriptType().ordinal();
                                     if (response.id != expectedResponseId) {

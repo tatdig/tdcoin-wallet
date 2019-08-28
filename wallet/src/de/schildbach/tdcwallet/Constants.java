@@ -69,7 +69,7 @@ public final class Constants {
     /** Enable switch for fetching and showing of exchange rates */
     public static final boolean ENABLE_EXCHANGE_RATES = false;
     /** Enable switch for sweeping of paper wallets */
-    public static final boolean ENABLE_SWEEP_WALLET = false;
+    public static final boolean ENABLE_SWEEP_WALLET = true;
     /** Enable switch for browsing to block explorers */
     public static final boolean ENABLE_BROWSE = true;
 
@@ -151,7 +151,7 @@ public final class Constants {
 
     public static final char CHAR_HAIR_SPACE = '\u200a';
     public static final char CHAR_THIN_SPACE = '\u2009';
-    public static final char CHAR_BITCOIN = '\u0054'; //TDCOIN '\u20bf'
+    public static final char CHAR_TDCOIN = '\u0054'; //TDCOIN '\u20bf'
     public static final char CHAR_ALMOST_EQUAL_TO = '\u2248';
     public static final char CHAR_CHECKMARK = '\u2713';
     public static final char CURRENCY_PLUS_SIGN = '\uff0b';

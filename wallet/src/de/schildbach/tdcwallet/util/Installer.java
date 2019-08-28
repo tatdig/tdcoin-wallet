@@ -56,16 +56,16 @@ public enum Installer {
 
     public HttpUrl appStorePageFor(final Application application) {
         final HttpUrl.Builder url;
-        if (this == F_DROID) {
+        /*if (this == F_DROID) {
             url = HttpUrl.parse("https://f-droid.org/de/packages/").newBuilder();
             url.addPathSegment(application.getPackageName());
-        } else if (this == GOOGLE_PLAY) {
+        } else */if (this == GOOGLE_PLAY) {
             url = HttpUrl.parse("https://play.google.com/store/apps/details").newBuilder();
             url.addQueryParameter("id", application.getPackageName());
-        } else if (this == AMAZON_APPSTORE) {
+        } /*else if (this == AMAZON_APPSTORE) {
             url = HttpUrl.parse("https://www.amazon.com/gp/mas/dl/android").newBuilder();
             url.addQueryParameter("p", application.getPackageName());
-        } else {
+        }*/ else {
             throw new IllegalStateException(this.toString());
         }
         return url.build();

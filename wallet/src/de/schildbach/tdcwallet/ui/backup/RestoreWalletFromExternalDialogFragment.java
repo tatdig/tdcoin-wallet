@@ -179,6 +179,7 @@ public class RestoreWalletFromExternalDialogFragment extends DialogFragment {
             final Wallet restoredWallet = restoreWalletFromEncrypted(is, password);
             application.replaceWallet(restoredWallet);
             config.disarmBackupReminder();
+            config.updateLastRestoreTime();
             SuccessDialogFragment.showDialog(getFragmentManager(), restoredWallet.isEncrypted());
             log.info("successfully restored encrypted wallet from external source");
         } catch (final IOException x) {
