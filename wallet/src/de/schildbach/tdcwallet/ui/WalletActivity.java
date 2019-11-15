@@ -83,6 +83,7 @@ public final class WalletActivity extends AbstractWalletActivity {
     private View levitateView;
 
     private static final int REQUEST_CODE_SCAN = 0;
+    private static final int REQUEST_CODE_VERIFY = 16;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -393,17 +394,25 @@ public final class WalletActivity extends AbstractWalletActivity {
                     }
                 }.parse();
             }
-        } else {
-            super.onActivityResult(requestCode, resultCode, intent);
+        } else if (requestCode == REQUEST_CODE_VERIFY) {
+                    if (resultCode == Activity.RESULT_OK) {
+                        //final String input = intent.getStringExtra(ScanActivity.INTENT_EXTRA_RESULT);
+                        //VerifyDocumentActivity.start(WalletActivity.this, input);
+                        Intent VerifyIntent = new Intent(WalletActivity.this, VerifyDocumentActivity.class);
+                        VerifyIntent.putExtras(intent);
+                        startActivity(VerifyIntent);
+                    }
+            }
+        else{
+                super.onActivityResult(requestCode, resultCode, intent);
         }
+
     }
 
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
         super.onCreateOptionsMenu(menu);
-
         getMenuInflater().inflate(R.menu.wallet_options, menu);
-
         return true;
     }
 
@@ -450,6 +459,10 @@ public final class WalletActivity extends AbstractWalletActivity {
 
         case R.id.wallet_options_send:
             handleSendCoins();
+            return true;
+
+        case R.id.wallet_options_verify:
+            handleVerify(null);
             return true;
 
         case R.id.wallet_options_scan:
@@ -514,6 +527,13 @@ public final class WalletActivity extends AbstractWalletActivity {
 
     public void handleSendCoins() {
         startActivity(new Intent(this, SendCoinsActivity.class));
+    }
+
+    public void handleVerify(final View clickView) {
+        // The animation must be ended because of several graphical glitching that happens when the
+        // Camera/SurfaceView is used while the animation is running.
+        enterAnimation.end();
+        ScanActivity.startForResult(this, clickView, WalletActivity.REQUEST_CODE_VERIFY);
     }
 
     public void handleScan(final View clickView) {

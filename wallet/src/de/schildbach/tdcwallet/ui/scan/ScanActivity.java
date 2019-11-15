@@ -321,9 +321,7 @@ public final class ScanActivity extends AbstractWalletActivity
 
     public void handleResult(final Result scanResult) {
         vibrator.vibrate(VIBRATE_DURATION);
-
         scannerView.setIsResult(true);
-
         final Intent result = new Intent();
         result.putExtra(INTENT_EXTRA_RESULT, scanResult.getText());
         setResult(RESULT_OK, result);

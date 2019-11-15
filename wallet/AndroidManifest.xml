@@ -187,7 +187,12 @@
             android:label="@string/sweep_wallet_activity_title"
             android:theme="@style/My.Theme.ChildActivity"
             android:windowSoftInputMode="adjustResize" />
-
+        <activity
+            android:name="de.schildbach.tdcwallet.ui.VerifyDocumentActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:label="@string/verify_document_activity_title"
+            android:theme="@style/My.Theme.ChildActivity"
+            android:windowSoftInputMode="adjustResize" />
         <provider
             android:name="de.schildbach.tdcwallet.data.ExchangeRatesProvider"
             android:authorities="de.schildbach.tdcwallet.exchange_rates"

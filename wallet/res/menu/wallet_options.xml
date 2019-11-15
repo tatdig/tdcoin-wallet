@@ -21,6 +21,7 @@
         android:title="@string/send_coins_activity_title"
         android:titleCondensed="@string/button_send_coins"
         android:visible="@bool/wallet_actions_top"/>
+
     <item
         android:id="@+id/wallet_options_scan"
         android:icon="@drawable/ic_photo_camera_white_24dp"
@@ -63,6 +64,10 @@
         android:id="@+id/wallet_options_exchange_rates"
         android:showAsAction="never"
         android:title="@string/exchange_rates_activity_title"/>
+    <item
+        android:id="@+id/wallet_options_verify"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="@string/button_verify"/>
     <item
         android:id="@+id/wallet_options_sweep_wallet"
         android:showAsAction="never"
